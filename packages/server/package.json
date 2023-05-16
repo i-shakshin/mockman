@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "packageManager": "yarn@3.5.1",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:dev": "tsc --watch",
+    "lint": "eslint src/*.ts",
+    "lint:fix": "eslint src/*.ts --fix"
+  }
+}
